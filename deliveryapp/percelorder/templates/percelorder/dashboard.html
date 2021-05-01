@@ -1,0 +1,89 @@
+{%extends 'percelorder/main.html'%}
+
+{%block title%}
+{%endblock%}
+
+
+{%block content%}
+<div class="container-fluid">
+    <div class="row">    
+        <div class="col-md-4">
+            <div class="card text-white bg-primary mb-3" style="margin: 10px;">
+                <div class="card-header">Total Orders</div>
+                <div class="card-body">
+                  <h5>000</h5>
+                </div>
+              </div>                
+        </div>
+        <div class="col-md-4">
+            <div class="card text-white bg-dark mb-3" style="margin: 10px;">
+                <div class="card-header">Orders Delivered</div>
+                <div class="card-body">
+                    <h5>00</h5>
+                </div>
+              </div>                
+        </div>
+        <div class="col-md-4">
+            <div class="card text-white bg-secondary mb-3" style="margin: 10px;">
+                <div class="card-header">Orders Pending</div>
+                <div class="card-body">
+                  <h5>000</h5>
+                </div>
+              </div>                
+        </div>                
+    </div>  
+    <div class="row my-4">
+        <div class="col-md-4">
+            <h5>Customers</h5>
+            <hr>
+            <div class="card">
+              <div class="card-body">
+                <table class="table">
+                  <a href="" class="btn btn-primary btn-sm btn-block">Create Customer</a>
+                  <thead class="thead">
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">Customer</th>
+                      <th scope="col">Phone</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td></td>
+
+                      </tr>
+                  </tbody>
+              </table>    
+              </div>
+            </div>      
+        </div>
+        <div class="col-md-8">
+          <h5>Last 5 Orders</h5>
+          <hr>
+          <div class="card">
+            <div class="card-body">
+              <table class="table">
+                <a  href="" type="button" class="btn btn-primary btn-sm btn-block">Create Orders</a>
+                <thead class="thead">
+                  <tr>
+                    <th scope="col">Product</th>
+                    <th scope="col">Date Ordered</th>
+                    <th scope="col">Status</th>
+                    <th scope="col">Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td></td>
+                    
+                  </tr>
+                </tbody>
+            </table>     
+            </div>
+          </div>
+            <hr>       
+        </div>
+    </div>
+</div>
+
+{%endblock%}
